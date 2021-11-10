@@ -104,7 +104,7 @@ S.UI = (function() {
 
 	function leftSeconds(date) {
 		var cur = date.getTime(),
-			dest = new Date(1636563150000).getTime();
+			dest = new Date(1636905600000).getTime();
 		var left = (dest - cur);
 		left = left < 0 ? 10 * 1000 : left;
 		return parseInt(left / 1000);
